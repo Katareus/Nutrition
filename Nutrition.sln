@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nutrition", "Nutrition\Nutrition.csproj", "{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{96F961A6-EB1E-4EB5-A251-F43029433EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F} = {96F961A6-EB1E-4EB5-A251-F43029433EE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23E2F209-299F-439C-A1D6-C42ED833A96E}
+	EndGlobalSection
+EndGlobal
