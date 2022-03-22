@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nutrition.Application.Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nutrition.Application.Interfaces", "Nutrition.Application.ServiceContracts\Nutrition.Application.Interfaces.csproj", "{28C91045-0332-4EDA-9E25-19E740607052}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C17A93D7-F433-4004-8CF3-19EB7C4EC821}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLayer", "ApplicationLayer", "{C17A93D7-F433-4004-8CF3-19EB7C4EC821}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
