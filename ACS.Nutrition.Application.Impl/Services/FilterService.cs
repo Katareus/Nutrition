@@ -1,10 +1,10 @@
-﻿using Nutrition.Application.Interfaces.ServiceContracts;
+﻿using ACS.Nutrition.Application.Contracts.Services;
 using System;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Nutrition.Application.Services.Services
+namespace ACS.Nutrition.Application.Impl.Services
 {
     public class FilterService : IFilterService
     {

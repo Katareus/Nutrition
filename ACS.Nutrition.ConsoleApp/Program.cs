@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Nutrition.Application.Interfaces.ServiceContracts;
-using Nutrition.Application.Services.Services;
+using ACS.Nutrition.Application.Contracts.Services;
+using ACS.Nutrition.Application.Impl.Services;
 using System;
 using System.Diagnostics;
 
-namespace Nutrition
+namespace ACS.Nutrition.ConsoleApp
 {
     class Program
     {

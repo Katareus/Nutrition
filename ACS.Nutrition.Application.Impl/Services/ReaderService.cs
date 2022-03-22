@@ -1,10 +1,10 @@
 ﻿using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.parser;
-using Nutrition.Application.Interfaces.ServiceContracts;
+using ACS.Nutrition.Application.Contracts.Services;
 using System.IO;
 using System.Text;
 
-namespace Nutrition.Application.Services.Services
+namespace ACS.Nutrition.Application.Impl.Services
 {
     public class ReaderService: IReaderService
     {

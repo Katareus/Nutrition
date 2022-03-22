@@ -1,4 +1,4 @@
-﻿namespace Nutrition.Application.Interfaces.ServiceContracts
+﻿namespace ACS.Nutrition.Application.Contracts.Services
 {
     public interface ITxtService
     {

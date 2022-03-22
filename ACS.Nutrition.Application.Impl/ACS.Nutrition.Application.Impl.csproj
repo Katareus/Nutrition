@@ -12,4 +12,8 @@
     <ProjectReference Include="..\ACS.Nutrition.Application.Contracts\ACS.Nutrition.Application.Contracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
 </Project>
