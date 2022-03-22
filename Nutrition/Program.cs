@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Nutrition
 {
@@ -6,7 +7,9 @@ namespace Nutrition
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Converting...");
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
 
             var pdfHelper = new PdfHelper("sources/recetas.pdf");
             var textString = pdfHelper.Read();
@@ -15,6 +18,9 @@ namespace Nutrition
 
             convertService.RecetasConverter(textString);
 
+            stopWatch.Stop();
+            var ts = stopWatch.Elapsed;
+            Console.WriteLine($"Converted in { ts.Seconds } seconds and { ts.Milliseconds } milliseconds.");
             Console.ReadKey();
         }
     }
