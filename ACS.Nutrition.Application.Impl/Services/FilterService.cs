@@ -23,24 +23,6 @@ namespace Nutrition.Application.Services.Services
             var content = string.Join("\n", textLines).Replace(". ", "\n").Replace(", ", "\n").Replace("g.", "g").Replace(" g", "g");
 
             return content;
-            CreateAndFillFile("output/recetas.txt", content);
-        }
-
-        private void CreateAndFillFile(string fileName, string content)
-        {
-            // Check if file already exists. If yes, delete it.     
-            if (File.Exists(fileName))
-            {
-                File.Delete(fileName);
-            }
-
-            // Create a new file     
-            using (FileStream fs = File.Create(fileName))
-            {
-                // Add some text to file    
-                Byte[] title = new UTF8Encoding(true).GetBytes(content);
-                fs.Write(title, 0, title.Length);
-            }
         }
 
         private string AvoidingSauceTitles(string x)

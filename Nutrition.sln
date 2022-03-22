@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1758
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nutrition", "Nutrition\Nutrition.csproj", "{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACS.Nutrition.ConsoleApp", "ACS.Nutrition.ConsoleApp\ACS.Nutrition.ConsoleApp.csproj", "{B8C910C4-2E08-4A10-B1EF-A8B5C030635F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{96F961A6-EB1E-4EB5-A251-F43029433EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACS.Nutrition.Application.Impl", "ACS.Nutrition.Application.Impl\ACS.Nutrition.Application.Impl.csproj", "{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nutrition.Application.Services", "Nutrition.Application.Services\Nutrition.Application.Services.csproj", "{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACS.Nutrition.Application.Contracts", "ACS.Nutrition.Application.Contracts\ACS.Nutrition.Application.Contracts.csproj", "{28C91045-0332-4EDA-9E25-19E740607052}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nutrition.Application.Interfaces", "Nutrition.Application.ServiceContracts\Nutrition.Application.Interfaces.csproj", "{28C91045-0332-4EDA-9E25-19E740607052}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Layers", "1 - Layers", "{C17A93D7-F433-4004-8CF3-19EB7C4EC821}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLayer", "ApplicationLayer", "{C17A93D7-F433-4004-8CF3-19EB7C4EC821}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Distributed Services", "1.2 - Distributed Services", "{7AD8CD83-16F9-481D-A9FA-AEFBE5B5D4FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Application", "1.3 - Application", "{7DABDC90-0B06-44AA-AB69-F02C13B9D20D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,9 +38,11 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F} = {96F961A6-EB1E-4EB5-A251-F43029433EE6}
-		{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB} = {C17A93D7-F433-4004-8CF3-19EB7C4EC821}
-		{28C91045-0332-4EDA-9E25-19E740607052} = {C17A93D7-F433-4004-8CF3-19EB7C4EC821}
+		{B8C910C4-2E08-4A10-B1EF-A8B5C030635F} = {7AD8CD83-16F9-481D-A9FA-AEFBE5B5D4FE}
+		{D2D5194D-3AB8-4CE7-A7BA-BADF729F32AB} = {7DABDC90-0B06-44AA-AB69-F02C13B9D20D}
+		{28C91045-0332-4EDA-9E25-19E740607052} = {7DABDC90-0B06-44AA-AB69-F02C13B9D20D}
+		{7AD8CD83-16F9-481D-A9FA-AEFBE5B5D4FE} = {C17A93D7-F433-4004-8CF3-19EB7C4EC821}
+		{7DABDC90-0B06-44AA-AB69-F02C13B9D20D} = {C17A93D7-F433-4004-8CF3-19EB7C4EC821}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23E2F209-299F-439C-A1D6-C42ED833A96E}

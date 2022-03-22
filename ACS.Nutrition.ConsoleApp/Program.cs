@@ -48,7 +48,6 @@ namespace Nutrition
             stopWatch.Stop();
             var ts = stopWatch.Elapsed;
             Console.WriteLine($"Converted in { ts.Seconds } seconds and { ts.Milliseconds } milliseconds.");
-            Console.ReadKey();
         }
     }
 }

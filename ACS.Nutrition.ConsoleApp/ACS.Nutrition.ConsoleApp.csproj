@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Nutrition.Application.ServiceContracts\Nutrition.Application.Interfaces.csproj" />
-    <ProjectReference Include="..\Nutrition.Application.Services\Nutrition.Application.Services.csproj" />
+    <ProjectReference Include="..\ACS.Nutrition.Application.Contracts\ACS.Nutrition.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ACS.Nutrition.Application.Impl\ACS.Nutrition.Application.Impl.csproj" />
   </ItemGroup>
 
   <ItemGroup>
